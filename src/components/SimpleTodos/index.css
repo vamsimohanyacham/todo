@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.a {
+  background-color: #ffc2a0;
+  padding: 50px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .a {
+    padding: 20px;
+  }
+  .c {
+  padding: 10px;
+  font-size: 20px;
+}
+.b {
+  background-color: white;
+  padding: 5px;
+}
+}
+
+.b {
+  background-color: white;
+  padding: 20px;
+}
+.c {
+  color: red;
+  padding: 25px;
+}

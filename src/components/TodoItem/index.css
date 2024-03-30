@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.aa {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+}
+
+@media (max-width:576px){
+  .aa{
+    font-size: 10px;
+  }
+}
+
+.cc {
+  margin-right: 0px;
+}
